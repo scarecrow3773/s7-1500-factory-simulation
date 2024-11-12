@@ -7,8 +7,8 @@ The factory simulation was programmed using Siemens TIA Portal V16 and exported 
 
 In order to include the simulation into an existing project you have to: <br>
 1. Activate the PLCs OPC UA Server 
-2. Import the Siemens library for general functions [109479728_LGF_LIB_TIAV16_V5_1_0](https://support.industry.siemens.com/cs/document/109479728/library-of-general-functions-(lgf)-for-simatic-step-7-(tia-portal)-and-simatic-s7-1200-s7-1500?dti=0&lc=en-DE).
-3. Import the simulation library [20241112_FactorySim_LIB_TIAV16_V1_0_0](./20241112_FactorySim_LIB_TIAV16_V1_0_0.zip).
+2. Import the Siemens library for general functions ([109479728_LGF_LIB_TIAV16_V5_1_0](https://support.industry.siemens.com/cs/document/109479728/library-of-general-functions-(lgf)-for-simatic-step-7-(tia-portal)-and-simatic-s7-1200-s7-1500?dti=0&lc=en-DE)).
+3. Import the simulation library ([20241112_FactorySim_LIB_TIAV16_V1_0_0](./20241112_FactorySim_LIB_TIAV16_V1_0_0.zip)).
 4. Include all functions (FC), function blocks (FB) and data blocks (DB) that are stored inside the simulation library.
 5. Call the FB "Fabriksimulation" from the OB1.
 6. Update the OPC UA Server interface in order to expose the new variables and methods that are included in the global DBs (Anlagensimulation) of the simulation library.
