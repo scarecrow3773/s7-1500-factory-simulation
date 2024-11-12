@@ -20,7 +20,6 @@ The library defines two OPC UA methods:
 1. startSimulation
     - Input (Boolean): Start the simulation by setting input to TRUE.
     - Output (Boolean): OPC UA method response
-![image](./20241112_VW-Factory-Simulation_OPC-UA-Method-call.png)
 
 2. parameterSimulation
     - Input:
@@ -29,6 +28,8 @@ The library defines two OPC UA methods:
         - setContinousMode (Boolean): continous production (work-in-progress: stop-method is not implemented yet)
         - setBatchSize (Int16): batch size for corresponding mode, has to be set to 0 for other modes
     - Output (Boolean): OPC UA method response
+
+![image](./20241112_VW-Factory-Simulation_OPC-UA-Method-call.png)
 
 ## TODO
 - [x] startSimulation method
