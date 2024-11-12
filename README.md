@@ -20,7 +20,7 @@ The library defines two OPC UA methods:
 1. startSimulation
     - Input (Boolean): Start the simulation by setting input to TRUE.
     - Output (Boolean): OPC UA method response
-[Image](20241112_VW-Factory-Simulation_OPC-UA-Method-call.png)
+![image](./20241112_VW-Factory-Simulation_OPC-UA-Method-call.png)
 
 2. parameterSimulation
     - Input:
