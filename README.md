@@ -20,6 +20,7 @@ The library defines two OPC UA methods:
 1. startSimulation
     - Input (Boolean): Start the simulation by setting input to TRUE.
     - Output (Boolean): OPC UA method response
+[Image](20241112_VW-Factory-Simulation_OPC-UA-Method-call.png)
 
 2. parameterSimulation
     - Input:
@@ -35,3 +36,7 @@ The library defines two OPC UA methods:
 - [ ] pauseSimulation method
 - [ ] include database injection (InfluxDB)
 - [ ] switch OPC UA security mode to SignAndEncrypt using certificates
+
+## References
+[OPC UA methods for the SIMATIC S7-1500 OPC UA server](https://support.industry.siemens.com/cs/document/109756885/opc-ua-methods-for-the-simatic-s7-1500-opc-ua-server-?dti=0&lc=en-DE)
+[Library of general functions (LGF)](https://support.industry.siemens.com/cs/document/109479728/library-of-general-functions-(lgf)-for-simatic-step-7-(tia-portal)-and-simatic-s7-1200-s7-1500?dti=0&lc=en-DE)
